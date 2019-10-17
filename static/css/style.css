@@ -1,0 +1,57 @@
+.login-input {
+  width: 150px;
+}
+
+.form-button {
+  width: 150px;
+  height: 50px;
+}
+
+.signup-box {
+  margin: auto;
+  width: 400px;
+  background: rgba(0,0,255,0.5);
+  border: solid rgba(255,255,255,0.5);
+  border-radius: 10px;
+}
+
+.settings-box {
+  margin: auto;
+  width: 325px;
+}
+
+.signup-area {
+  padding: 30px;
+}
+
+.settings-area {
+  padding: 30px;
+}
+
+.upload-label{
+  display: inline-block;
+  padding: 12px 30px;
+  background: #39D2B4;
+  color: #fff;
+  font-size: 1em;
+  transition: all .4s;
+  cursor: pointer;
+}
+
+.upload-label:hover{
+  background: #34495E;
+  color: #39D2B4;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.loader {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
