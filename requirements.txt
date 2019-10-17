@@ -1,3 +1,4 @@
+jieba.analyse
 Flask
 WTForms
 SQLAlchemy
