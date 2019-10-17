@@ -1,4 +1,4 @@
-Fit your resume into job description
+Know the % your resume match with job description
 
 upload folder contains example for testing. working product could be explored here @
 
