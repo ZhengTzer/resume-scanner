@@ -28,8 +28,8 @@ app = Flask(__name__)
 app.secret_key = os.urandom(12)  # Generic key for dev purposes only
 
 stripe_keys = {
-  'secret_key': os.environ['sk_test_dz6XGx3YZjXtGkbQbjCJ74yF00R7yoZY4E'],
-  'publishable_key': os.environ['pk_test_DGCPw761ZkJOORJwRRUFoIje00Rbd6f709']
+  'secret_key': os.environ['STRIPE_SECRET_KEY'],
+  'publishable_key': os.environ['STRIPE_PUBLISHABLE_KEY']
 }
 
 stripe.api_key = stripe_keys['secret_key']
