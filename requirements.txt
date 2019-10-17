@@ -9,6 +9,5 @@ stripe
 pandas
 scikit-learn
 jieba
-jieba.analyse
 numpy
 xlrd
