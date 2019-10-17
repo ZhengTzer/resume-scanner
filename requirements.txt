@@ -1,4 +1,3 @@
-jieba.analyse
 Flask
 WTForms
 SQLAlchemy
@@ -11,4 +10,3 @@ pandas
 scikit-learn
 jieba
 numpy
-xlrd
